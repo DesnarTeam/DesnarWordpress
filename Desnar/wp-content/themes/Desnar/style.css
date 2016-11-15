@@ -1,5 +1,5 @@
 /*
-Theme Name: Desnar: ;
+Theme Name: Desnar 
 Theme URI: http://desnar.com/
 Description: this is the test theme.
 Author:  Avni & Nitin
@@ -12,3 +12,7 @@ Like WordPress, this work is released under GNU General Public License, version 
 http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
 .
 */
+
+.single #nav-above {
+    display:none;
+}
