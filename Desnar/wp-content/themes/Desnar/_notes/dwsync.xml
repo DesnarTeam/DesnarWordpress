@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <dwsync>
 <file name="style.css" server="ftp.commexmega.com/public_html/ccmxx.com/" local="131237631750975370" remote="131237379600000000" Dst="1" />
+<<<<<<< HEAD
 <file name="index.php" server="ftp.commexmega.com/public_html/ccmxx.com/" local="131237687905580823" remote="131237435400000000" Dst="1" />
+=======
+<file name="header.php" server="ftp.commexmega.com/public_html/ccmxx.com/" local="131236599000000000" remote="131236599000000000" Dst="1" />
+<file name="functions.php" server="ftp.commexmega.com/public_html/ccmxx.com/" local="131237664613664290" remote="131237412600000000" Dst="1" />
+>>>>>>> refs/remotes/origin/Avni
 </dwsync>
