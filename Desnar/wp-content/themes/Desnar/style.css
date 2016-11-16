@@ -2,7 +2,11 @@
 Theme Name: Desnar 
 Theme URI: http://desnar.com/
 Description: this is the test theme.
+<<<<<<< HEAD
+Author:  Avni & Nitin
+=======
 Author:  Avni & Nitin1 
+>>>>>>> refs/remotes/origin/master
 Author URI: http://desnar.com/
 Version: 1.0
 Tags: desnar
@@ -15,6 +19,9 @@ http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
 
 .single #nav-above {
     display:none;
+<<<<<<< HEAD
+}
+=======
 }
 *{
 	margin:0;
@@ -69,3 +76,4 @@ http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
 	position:inherit;
 	font-family:'Roboto',sans-serif;
 }
+>>>>>>> refs/remotes/origin/master
