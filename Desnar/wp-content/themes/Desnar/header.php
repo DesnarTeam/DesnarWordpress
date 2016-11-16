@@ -44,21 +44,3 @@
         </div><!-- #masthead -->
     </div><!-- #header -->
  
-    <div id="main">
-    
-    	<div id="wrapper"> 
-    	<div id="header">
-       		<div id="menu">
-            <div id="left-menu">
-            <ul>
-        		<li><h2><?php bloginfo("name");?></h2></li>
-           	  <li><?php wp_nav_menu(array('theme_location'=>'primary')); ?></li>
-             <?php wp_nav_menu(array('theme_location'=>'Secondary')); ?>
-             </ul>
-             </div>
-             <div id="right-menu">
-             <p> DOWNLOAD</p>
-           	</div>
-            </div>
-    	</div>
-    </div>
