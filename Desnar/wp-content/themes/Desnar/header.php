@@ -25,21 +25,36 @@
 <body>
 <div id="wrapper" class="hfeed">
     <div id="header">
-        <div id="masthead">
- 
-            <div id="branding">
+        <div id="menu">
+            <div id="left-menu">
+            <ul>
+        		<li><h2><?php bloginfo("name");?></h2></li>
+           	  <li><?php wp_nav_menu(array('theme_location'=>'Primary')); ?></li>
+             <?php wp_nav_menu(array('theme_location'=>'Secondary')); ?>
+             
+             </ul>
+             </div>
+             <div id="right-menu">
+             <p> DOWNLOAD</p>
+           	</div>
+            </div>
+                
+           <div id="masthead">
+ <?php /*?>
+            <!--<div id="branding">
                 <div id="blog-title"><span><a href="<?php bloginfo( 'url' ) ?>/" title="<?php bloginfo( 'name' ) ?>" rel="home"><?php bloginfo( 'name' ) ?></a></span></div>
 <?php if ( is_home() || is_front_page() ) { ?>
                     <h1 id="blog-description"><?php bloginfo( 'description' ) ?></h1>
 <?php } else { ?>
                     <div id="blog-description"><?php bloginfo( 'description' ) ?></div>
 <?php } ?>
-            </div><!-- #branding -->
+            </div><!-- #branding -->--><?php */?>
  
-           <div id="access">
+          <?php /*?> <div id="access">
     <div class="skip-link"><a href="#content" title="<?php _e( 'Skip to content', 'Desnar' ) ?>"><?php _e( 'Skip to content', 'Desnar' ) ?></a></div>
-    <?php wp_page_menu( 'sort_column=menu_order' ); ?>
-</div><!-- #access -->
+    
+            
+</div><!-- #access --><?php */?>
  
         </div><!-- #masthead -->
     </div><!-- #header -->

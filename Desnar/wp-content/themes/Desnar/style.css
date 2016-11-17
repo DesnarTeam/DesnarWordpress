@@ -19,10 +19,10 @@ http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
 
 .single #nav-above {
     display:none;
-<<<<<<< HEAD
+
 }
-=======
-}
+
+
 *{
 	margin:0;
 	padding:0;
@@ -42,7 +42,7 @@ http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
 	width:100%;
 	height:65px;
 	opacity:1px;
-	background-color:#fff;
+	background-color:#bbb;
 	box-shadow: -1px 3px 3px 0 rgba(0,0,0,.1);
 	position:absolute;
 	}
@@ -76,4 +76,19 @@ http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
 	position:inherit;
 	font-family:'Roboto',sans-serif;
 }
->>>>>>> refs/remotes/origin/master
+#container{
+clear:both;
+height: 900px;
+width:100%;
+background:#E9E6E6;
+}
+#container #content-left{
+	width:45%;
+	background-color:#E1D9DA;
+	
+	}
+#container #content-right{
+	width:45%;
+	border-right:1px solid;
+	float:right;
+	}

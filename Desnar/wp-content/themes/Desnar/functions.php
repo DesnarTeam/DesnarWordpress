@@ -9,13 +9,13 @@ if ( is_readable($locale_file) )
     require_once($locale_file);
  
 // Get the page number
-function get_page_number() {
+  function get_page_number() {
     if ( get_query_var('paged') ) {
         print ' | ' . __( 'Page ' , 'Desnar') . get_query_var('paged');
     }
 } // end get_page_number
- function desnar_menu(){
-		register_nav_menu('primary', 'Top Navigation');	
+   function desnar_menu(){
+		register_nav_menu('Primary', 'Top Navigation');	
 	}
 	add_action('init','desnar_menu');
 	
